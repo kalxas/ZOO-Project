@@ -38,6 +38,3 @@ jobs:
           zooproject/websocketd:latest
         cache-from: type=gha,scope=websocketd
         cache-to: type=gha,scope=websocketd,mode=max
-    - name: Build and push latest
-
-      uses: docker/build-push-action@v4
